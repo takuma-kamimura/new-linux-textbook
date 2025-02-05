@@ -1,1 +1,1 @@
-# new-linux-textbook
+# 「新しいLinuxの教科書」の学習記録
