@@ -229,3 +229,22 @@ $ ls -a -F
 
 ![alt text](image-5.png)
 
+- -wオプション
+
+指定した数字の横幅で画面に表示するオプション
+
+```
+$ ls -w 30
+```
+
+![alt text](image-6.png)
+
+- ロングオプション
+
+--quote-nameオプションを指定するとファイル名を「""」で囲んで表示する
+
+```
+$ ls --quote-name
+```
+
+![alt text](image-7.png)
