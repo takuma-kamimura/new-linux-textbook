@@ -189,3 +189,43 @@ $ ls -l
 ```
 
 ![alt text](image.png)
+
+![alt text](image-1.png)
+
+ファイルタイプが「-」なら通常ファイル
+「d」はディレクトリ
+
+- ls -aオプション
+
+```
+$ ls -a
+```
+
+![alt text](image-2.png)
+
+- ls -F オプション
+
+ファイル名の後ろにファイルの種類を示す記号を追加する
+
+```
+$ ls -F
+```
+
+![alt text](image-3.png)
+
+- - Fオプションで表示されるファイル種別
+
+![alt text](image-4.png)
+
+### コマンドのオプションについて
+
+コマンドのオプションは二つ以上指定することも可能
+
+```
+$ ls -a
+
+$ ls -a -F
+```
+
+![alt text](image-5.png)
+
