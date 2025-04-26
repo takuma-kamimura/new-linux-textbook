@@ -75,3 +75,31 @@ shopt -s/-u <オプション名>
 ![alt text](image-6.png)
 
 ### シェル変数
+シェル変数とはbash内部で使用される変数
+様々な値を設定できる
+
+- 変数の設定
+```
+<変数名>=<値>
+```
+
+![alt text](image-7.png)
+![alt text](image-8.png)
+![alt text](image-9.png)
+
+- PS1 - プロンプト設定
+コマンドラインの「$」表記を変更する
+
+![alt text](image-10.png)
+
+![alt text](image-11.png)
+
+/wはカレントディレクトリを表す。これを設定しておくとpwdコマンドを叩かなくてもプロンプトを見るだけでカレントディレクトリがわかる
+![alt text](image-12.png)
+
+![alt text](image-13.png)
+
+プロンプトが横に長すぎる場合は`\n`で途中で改行できる
+![alt text](image-14.png)
+
+- PATH - コマンド検索パス
