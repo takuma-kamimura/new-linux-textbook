@@ -132,3 +132,53 @@ shopt -s/-u <オプション名>
 
 ### 環境変数
 
+ファイルシステム上に存在するコマンドを`外部コマンド`
+シェル自体に存在しているコマンドを`組み込みコマンド`
+
+![alt text](image-25.png)
+
+![alt text](image-26.png)
+
+![alt text](image-27.png)
+
+catは外部コマンド
+![alt text](image-28.png)
+
+- 現在シェルに設定されている環境変数を表示には`printenv`コマンド
+
+![alt text](image-29.png)
+
+- exportコマンドコマンド - 環境変数の設定
+
+指定した変数を環境変数として設定
+```
+export <シェル変数>
+```
+
+![alt text](image-30.png)
+
+![alt text](image-31.png)
+
+### bashの設定ファイル
+
+![alt text](image-32.png)
+
+![alt text](image-33.png)
+
+- 設定ファイルの変更時の注意
+設定を行うシェルとは別にもう一つのシェルを起動しておく
+
+![alt text](image-34.png)
+
+![alt text](image-35.png)
+
+![alt text](image-36.png)
+
+![alt text](image-37.png)
+
+- コメント
+`コメント`とは動作には関係ないメモ書きのこと
+![alt text](image-38.png)
+
+- bashのカスタマイズ例
+![alt text](image-39.png)
