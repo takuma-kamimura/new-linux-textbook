@@ -3,22 +3,27 @@
 `メモリ上で実行状態にあるプログラム`のこと
 
 - psコマンド - プロセスの表示
+
 ![alt text](image.png)
 
 ![alt text](image-1.png)
 
 - 現在のターミナル以外のプロセスも表示する
+
 ![alt text](image-2.png)
 
 - オプション形式
+
 ![alt text](image-3.png)
 
 - 全てのプロセスを表示
+
 ![alt text](image-4.png)
 
 `Linuxはマルチタスク機能により、様々なプロセスが同時に動作している`
 
 - よく使われるオプション
+
 ![alt text](image-5.png)
 
 ### ジョブとは
@@ -38,6 +43,7 @@
 
 ジョブを停止状態から、ユーザーが対話的に操作できる元の状態に戻す
 これをフォアグラウンドという
+
 ```
 fg %<ジョブ番号>
 ```
@@ -73,7 +79,9 @@ bg %<ジョブ番号>
 ### ジョブ・プロセスの終了
 
 フォアグラウンドジョブの終了
+
 ![alt text](image-19.png)
+
 上はバックグラウンドジョブは停止できない
 
 ```
@@ -95,6 +103,7 @@ kill <プロセス　ID>
 ![alt text](image-24.png)
 
 ![alt text](image-20.png)
+
 ![alt text](image-25.png)
 
 - killコマンド - シグナルを送信する
@@ -102,6 +111,7 @@ kill <プロセス　ID>
 `killはコマンドではなくシグナルを送信するコマンド`
 
 下記は全て同じ意味
+
 ![alt text](image-26.png)
 ![alt text](image-27.png)
 
